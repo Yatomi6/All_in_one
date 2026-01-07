@@ -4,8 +4,8 @@ function App() {
   const [count, setCount] = useState(1);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center justify-center gap-4">
-      <h1 className="text-3xl font-bold">Compteur React</h1>
+    <div className="mx-auto bg-slate-400">
+      <h1 className="title">Portal Site</h1>
 
       <p className="text-lg">Valeur : {count}</p>
 
